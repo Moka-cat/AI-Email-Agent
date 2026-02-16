@@ -1,0 +1,18 @@
+# === 绝对隐私 ===
+.env
+.env.local
+*.key
+*.pem
+
+# === 垃圾文件 & 缓存 ===
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# === 巨大的本地数据 ===
+chroma_db/
+milvus_demo.db
+data/
+venv/
+.venv/
