@@ -22,5 +22,3 @@ graph LR
     D -->|Context + Prompt| F[LLM]
     F -->|Draft| B
     B -->|SMTP/Append| A
-
-<img width="814" height="1096" alt="image" src="https://github.com/user-attachments/assets/7f95ebc8-453d-4590-9d52-8abc56a9feeb" />
